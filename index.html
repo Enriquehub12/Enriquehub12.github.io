@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">PAGINA</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#mision" onclick="seleccionar()">MISION</a></li>
+                    <li><a href="#vision" onclick="seleccionar()">VISION</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO DE PRODUCTOS</a></li>
+                    <li><a href="#pestel" onclick="seleccionar()">ANALISIS PESTEL</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/2.png" alt="">
+            </div>
+            <h1>Digital Networking</h1>
+            <h2>Creatividad y resultados, a un clic de distancia</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="mision" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>MISIÓN</h2>
+            <p>
+                Nuestra <span>Misión</span> es impulsar el crecimiento de las marcas en el mundo digital a través de
+                estrategias de
+                marketing efectivas, creativas y basadas en datos. Nos comprometemos a entender a fondo las necesidades
+                de nuestros clientes para ofrecer soluciones personalizadas que generen valor, potencien su presencia
+                digital y conecten con su audiencia de manera auténtica y significativa
+            </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Listas de Misiones</h3>
+                    <ul>
+                        <li>
+
+                            Impulsar el crecimiento de nuestros clientes al maximizar su presencia y alcance digital a
+                            través de estrategias innovadoras y personalizadas.
+                        </li>
+                        <li>
+
+                            Ayudar a las marcas a conectar con su audiencia mediante campañas digitales creativas y
+                            orientadas a resultados que generen impacto y compromiso.
+                        </li>
+                        <li>
+                            Empoderar a las pequeñas y medianas empresas brindándoles acceso a herramientas de marketing
+                            digital de vanguardia y estrategias competitivas.
+
+
+
+                        </li>
+                        <li>
+                            Desarrollar relaciones duraderas con nuestros clientes basadas en transparencia, confianza y
+                            resultados visibles.
+
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Temas</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-credit-card"></i>
+                            <span>BANCO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>TECNOLOGÍA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                            <span>NUBE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span>COMPRAS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="vision" style="background-color: #ededed;" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>VISIÓN</h2>
+            <p>
+                Ser la empresa líder en <span>marketing digital</span> que inspira y potencia la transformación digital
+                de las
+                marcas, creando experiencias significativas y sostenibles que conecten a nuestros clientes con su
+                audiencia global. Aspiramos a redefinir el futuro del marketing con innovación constante, excelencia en
+                resultados y un compromiso genuino con el éxito de cada cliente.
+            </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Listas de Visiones</h3>
+                    <ul>
+                        <li>
+                            Convertirnos en el socio estratégico de referencia para marcas que buscan crecer y destacar
+                            en el entorno digital.
+                        </li>
+                        <li>
+
+                            Redefinir los estándares del marketing digital, combinando creatividad y tecnología.
+                        </li>
+                        <li>
+                            Liderar el mercado del marketing digital con servicios personalizados que generen valor
+                            duradero.
+
+                        </li>
+                        <li>
+                            Ser la agencia de marketing digital más confiable y creativa.
+                        </li>
+                        <li>
+                            Convertirnos en la primera elección de empresas que desean una presencia digital relevante y
+                            diferenciada
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Temas</h3>
+                    <div class="contenedor-intereses">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portafolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO DE PRODUCTOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/REDES.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Gestión de Redes Sociales</h3>
+                        <p>Publicidad en redes sociales</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/GOOGLE-ADS-KPI.webp" height="255" alt="">
+                    <div class="overlay">
+                        <h3>Publicidad en Línea</h3>
+                        <p>Google Ads</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/seo-audit.jpg" height="256" alt="">
+                    <div class="overlay">
+                        <h3>SEO (Optimización en Motores de Búsqueda)
+                        </h3>
+                        <p>Auditoría SEO</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/marketing-de-contenidos-1.webp" height="255" alt="">
+                    <div class="overlay">
+                        <h3>Marketing de Contenidos</h3>
+                        <p>Distribución de Contenido</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Web</h3>
+                        <p>Diseño Web Personalizado y Optimización de Experiencia de Usuario</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/ciencia-de-datos-vs-analisis-de-datos.jpg.optimal.jpg" height="253" alt="">
+                    <div class="overlay">
+                        <h3>Analítica y Consultoría Digital</h3>
+                        <p>Configuración de Herramientas de Análisis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pestel" style="background-color: #ededed;" class="sobremi">
+        <div class="contenido-seccion">
+            <h1 class="pestel">Análisis PESTEL - Empresa de Marketing Digital</h1>
+    
+            <div class="table">
+                <div class="row header">
+                    <div class="cell1">Factor</div>
+                    <div class="cell1">Descripción</div>
+                </div>
+                <div class="row politico">
+                    <div class="cell">Político</div>
+                    <div class="cell">Cambios en las leyes de privacidad de datos y políticas comerciales que pueden afectar la recopilación y uso de datos por parte de las empresas.</div>
+                </div>
+                <div class="row economico">
+                    <div class="cell">Económico</div>
+                    <div class="cell">Condiciones económicas que afectan el gasto en marketing, incluyendo inflación y tasas de interés que impactan el financiamiento.</div>
+                </div>
+                <div class="row social">
+                    <div class="cell">Social</div>
+                    <div class="cell">Tendencias en el comportamiento del consumidor, como el uso de dispositivos móviles y el interés por la sostenibilidad.</div>
+                </div>
+                <div class="row tecnologico">
+                    <div class="cell">Tecnológico</div>
+                    <div class="cell">Avances en tecnología, incluyendo inteligencia artificial y análisis de datos que mejoran la personalización de campañas.</div>
+                </div>
+                <div class="row ecologico">
+                    <div class="cell">Ecológico</div>
+                    <div class="cell">Expectativas ambientales de los consumidores y regulaciones que impulsan prácticas sostenibles en marketing.</div>
+                </div>
+                <div class="row legal">
+                    <div class="cell">Legal</div>
+                    <div class="cell">Cumplimiento de normativas de publicidad y derechos de propiedad intelectual que afectan las operaciones de marketing.</div>
+                </div>
+            </div>
+        
+        </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                CARRETERA, Antigua a Minatitlán KM 16.5, Reserva Territorial, 96536 Coatzacoalcos, Ver.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +52 1 922 152 3466
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: isic24.jsanchezt@itesco.edu.mx
+
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
