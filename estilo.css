@@ -136,82 +136,81 @@ html{
 .inicio .contenido-banner .redes a:hover{
     background-color: #b61c1c;
 }
-.misiones{
+.mision{
     background-color: #e0e0e0;
     color: #000000;
     padding: 50px 20px;
 }
-.misiones .contenido-seccion{
+.mision .contenido-seccion{
     max-width: 1100px;
     margin: auto;
 }
-.misiones h2{
+.mision h2{
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
 
 }
-.misiones .contenido-seccion p{
+.mision .contenido-seccion p{
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
 }
-.misiones .contenido-seccion p span{
+.mision .contenido-seccion p span{
     color: #b61c1c;
     font-weight: bold;
 }
-.misiones .fila{
+.mision .fila{
     display: flex;
 }
-.misiones .fila .col
+.mision .fila .col
 {
     width: 50%;
 }
-.misiones .fila .col h3{
+.mision .fila .col h3{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
 
-.misiones .fila .col ul li{
-    margin: 20px 50px;
+.mision .fila .col ul li{
+    margin: 12px 0;
 }
-.misiones .fila .col ul li strong{
+.mision .fila .col ul li strong{
     display: inline-block;
     color: #b61c1c;
     width: 130px;
 }
-.misiones .fila .col ul li span{
+.mision .fila .col ul li span{
     background-color: #b61c1c;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
 }
-.misiones .fila .col .contenedor-intereses{
+.mision .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
-
 }
-.misiones .fila .col .contenedor-intereses .interes{
+.mision .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #ededed;
+    background-color: #efefef;
     border-radius: 10px;
-    margin: 0 20px 20px 0;
+    margin: 0 15px 15px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: .3s;
-}.misiones .fila .col .contenedor-intereses .interes:hover{
+}.mision .fila .col .contenedor-intereses .interes:hover{
     background-color: #b61c1c;
 }
-.misiones .fila .col .contenedor-intereses .interes i{
+.mision .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.misiones button{
+.mision button{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -220,11 +219,11 @@ html{
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: #000000;
+    color: #fff;
     position: relative;
     z-index: 10;
 }
-.misiones button .overlay{
+.sobremi button .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -234,10 +233,9 @@ html{
     z-index: -1;
     transition: 1s;
 }
-.misiones button:hover .overlay{
+.sobremi button:hover .overlay{
     width: 100%;
 }
-
 /* SECCION PORTFOLIO */
 .portfolio{
     background-color: #e0e0e0;
@@ -448,10 +446,10 @@ footer .arriba{
     }
 }
 @media screen and (max-width:700px){
-    .sobremi .fila{
+    .mision .fila{
         display: block;
     }
-    .sobremi .fila .col{
+    .mision .fila .col{
         width: fit-content;
     }
 
