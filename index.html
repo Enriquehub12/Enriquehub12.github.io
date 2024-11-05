@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
+    <title>Digital Networking</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/2.png" type="image/x-icon">
+
 </head>
 
 <body>
@@ -17,7 +19,7 @@
     <div class="contenedor-header">
         <header>
             <div class="logo">
-                <a href="#">PAGINA</a>
+                <a href="#">DIGITAL NETWORKING</a>
             </div>
             <nav id="nav">
                 <ul>
@@ -46,15 +48,15 @@
             <div class="redes">
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-solid fa-rss"></i></a>
+                <a href="#"><i class="fa-solid fa-globe"></i></a>
             </div>
         </div>
     </section>
 
     <!-- SECCION SOBRE MI -->
-    <section id="mision" class="sobremi">
+    <section id="mision" class="misiones">
         <div class="contenido-seccion">
             <h2>MISIÓN</h2>
             <p>
@@ -139,7 +141,7 @@
         </div>
     </section>
 
-    <section id="vision" style="background-color: #ededed;" class="sobremi">
+    <section id="vision" style="background-color: #ededed;" class="misiones">
         <div class="contenido-seccion">
             <h2>VISIÓN</h2>
             <p>
@@ -240,10 +242,10 @@
         </div>
     </section>
 
-    <section id="pestel" style="background-color: #ededed;" class="sobremi">
+    <section id="pestel" style="background-color: #ededed;" class="misiones">
         <div class="contenido-seccion">
             <h1 class="pestel">Análisis PESTEL - Empresa de Marketing Digital</h1>
-    
+
             <div class="table">
                 <div class="row header">
                     <div class="cell1">Factor</div>
@@ -251,30 +253,36 @@
                 </div>
                 <div class="row politico">
                     <div class="cell">Político</div>
-                    <div class="cell">Cambios en las leyes de privacidad de datos y políticas comerciales que pueden afectar la recopilación y uso de datos por parte de las empresas.</div>
+                    <div class="cell">Cambios en las leyes de privacidad de datos y políticas comerciales que pueden
+                        afectar la recopilación y uso de datos por parte de las empresas.</div>
                 </div>
                 <div class="row economico">
                     <div class="cell">Económico</div>
-                    <div class="cell">Condiciones económicas que afectan el gasto en marketing, incluyendo inflación y tasas de interés que impactan el financiamiento.</div>
+                    <div class="cell">Condiciones económicas que afectan el gasto en marketing, incluyendo inflación y
+                        tasas de interés que impactan el financiamiento.</div>
                 </div>
                 <div class="row social">
                     <div class="cell">Social</div>
-                    <div class="cell">Tendencias en el comportamiento del consumidor, como el uso de dispositivos móviles y el interés por la sostenibilidad.</div>
+                    <div class="cell">Tendencias en el comportamiento del consumidor, como el uso de dispositivos
+                        móviles y el interés por la sostenibilidad.</div>
                 </div>
                 <div class="row tecnologico">
                     <div class="cell">Tecnológico</div>
-                    <div class="cell">Avances en tecnología, incluyendo inteligencia artificial y análisis de datos que mejoran la personalización de campañas.</div>
+                    <div class="cell">Avances en tecnología, incluyendo inteligencia artificial y análisis de datos que
+                        mejoran la personalización de campañas.</div>
                 </div>
                 <div class="row ecologico">
                     <div class="cell">Ecológico</div>
-                    <div class="cell">Expectativas ambientales de los consumidores y regulaciones que impulsan prácticas sostenibles en marketing.</div>
+                    <div class="cell">Expectativas ambientales de los consumidores y regulaciones que impulsan prácticas
+                        sostenibles en marketing.</div>
                 </div>
                 <div class="row legal">
                     <div class="cell">Legal</div>
-                    <div class="cell">Cumplimiento de normativas de publicidad y derechos de propiedad intelectual que afectan las operaciones de marketing.</div>
+                    <div class="cell">Cumplimiento de normativas de publicidad y derechos de propiedad intelectual que
+                        afectan las operaciones de marketing.</div>
                 </div>
             </div>
-        
+
         </div>
         </div>
     </section>
@@ -286,12 +294,12 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
+                    <input type="text" id="label1" placeholder="Tú Nombre">
+                    <input type="text" id="label2" placeholder="Número telefónico">
+                    <input type="text" id="label4" placeholder="Dirección de correo">
+                    <input type="text" id="label3" placeholder="Tema">
+                    <textarea name="" id="label5" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button onclick="limpiarlabels()">
                         Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
@@ -322,6 +330,7 @@
         </div>
     </section>
 
+
     <!-- footer -->
     <footer>
         <a href="#inicio" class="arriba">
@@ -330,9 +339,9 @@
         <div class="redes">
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-solid fa-rss"></i></a>
+            <a href="#"><i class="fa-solid fa-globe"></i></a>
         </div>
     </footer>
 

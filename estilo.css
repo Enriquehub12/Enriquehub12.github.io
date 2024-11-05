@@ -58,7 +58,7 @@ html{
 }
 .contenedor-header header .logo a{
     font-family: 'Righteous';
-    font-size: 36px;
+    font-size: 20px;
     color: #b61c1c;
     text-decoration: none;
 }
@@ -69,7 +69,7 @@ html{
 .contenedor-header header nav ul li a{
     text-align: none;
     color: #000000;
-    margin: 0 15px;
+    margin: 0PX 15px;
     padding: 3px;
     transition: .5s;
     text-decoration: none;
@@ -136,64 +136,64 @@ html{
 .inicio .contenido-banner .redes a:hover{
     background-color: #b61c1c;
 }
-.sobremi{
+.misiones{
     background-color: #e0e0e0;
     color: #000000;
     padding: 50px 20px;
 }
-.sobremi .contenido-seccion{
+.misiones .contenido-seccion{
     max-width: 1100px;
     margin: auto;
 }
-.sobremi h2{
+.misiones h2{
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
 
 }
-.sobremi .contenido-seccion p{
+.misiones .contenido-seccion p{
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
 }
-.sobremi .contenido-seccion p span{
+.misiones .contenido-seccion p span{
     color: #b61c1c;
     font-weight: bold;
 }
-.sobremi .fila{
+.misiones .fila{
     display: flex;
 }
-.sobremi .fila .col
+.misiones .fila .col
 {
     width: 50%;
 }
-.sobremi .fila .col h3{
+.misiones .fila .col h3{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
 
-.sobremi .fila .col ul li{
+.misiones .fila .col ul li{
     margin: 20px 50px;
 }
-.sobremi .fila .col ul li strong{
+.misiones .fila .col ul li strong{
     display: inline-block;
     color: #b61c1c;
     width: 130px;
 }
-.sobremi .fila .col ul li span{
+.misiones .fila .col ul li span{
     background-color: #b61c1c;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
 }
-.sobremi .fila .col .contenedor-intereses{
+.misiones .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
 
 }
-.sobremi .fila .col .contenedor-intereses .interes{
+.misiones .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
     background-color: #ededed;
@@ -204,14 +204,14 @@ html{
     align-items: center;
     justify-content: center;
     transition: .3s;
-}.sobremi .fila .col .contenedor-intereses .interes:hover{
+}.misiones .fila .col .contenedor-intereses .interes:hover{
     background-color: #b61c1c;
 }
-.sobremi .fila .col .contenedor-intereses .interes i{
+.misiones .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button{
+.misiones button{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -224,7 +224,7 @@ html{
     position: relative;
     z-index: 10;
 }
-.sobremi button .overlay{
+.misiones button .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -234,7 +234,7 @@ html{
     z-index: -1;
     transition: 1s;
 }
-.sobremi button:hover .overlay{
+.misiones button:hover .overlay{
     width: 100%;
 }
 
@@ -269,6 +269,8 @@ html{
 .portfolio .galeria .proyecto img{
     width: 100%;
     display: block;
+    border-radius:50px;
+
 }
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
@@ -283,6 +285,7 @@ html{
     transition: 1s;
     font-size: 18px;
     letter-spacing: 3px;
+    border-radius: 50px;
     opacity: 0;
 }
 .portfolio .galeria .proyecto .overlay h3{
@@ -300,10 +303,12 @@ html{
     background-image: url(img/contact_bg.png);
     color: #000000;
     padding: 50px 0;
+    background-color: #e0e0e0;
 }
 .contacto .contenido-seccion{
     max-width: 1100px;
     margin: auto;
+
 }
 .contacto h2{
     font-size: 48px;
@@ -392,7 +397,7 @@ footer .redes a{
     color: #000000;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 1px solid #a8a6a6;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -415,6 +420,9 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
+
+
+
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
     nav{
